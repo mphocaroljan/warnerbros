@@ -1,0 +1,535 @@
+/*GOOGLE FONTS FILE*/ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+body
+{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    z-index: -1;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.logo img{
+    height: 7vh;
+}
+.logo h3{
+    color: teal;
+    font-size: 25px;
+    margin-top: -35px;
+    margin-left: 50px;
+}
+.nav ul{
+display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+   text-decoration: none ; 
+   padding: 0px 20px;
+   color: teal;
+}
+.nav ul li a:hover{
+   color: teal;
+   font-weight: bold;
+}
+.user
+{
+    cursor: pointer;
+    color: teal;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.user a{
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.user a:hover{
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+}
+.user i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+.heropage{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.inside-heropage{
+    line-height: 2;
+}
+.inside-heropage h1{
+    font-size: 40px;
+}
+.inside-heropage p{
+     font-size: 17px;
+}
+span{
+    color: teal;
+    font-weight: bold;
+}
+.line1{
+    height: 2px;
+    color: white;
+    margin-left: 0px;
+    margin-top: opx;
+    
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 320px;
+    float: right;
+    border-radius: 10px;
+}
+.btn1{
+   margin-top: 30px; 
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background: black;
+    border-radius: 20px;
+}
+ .upcoming-movies{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 500px;
+    padding: 0px 20px;
+ }
+ .upcoming-movies h1{
+     font-size: 20px;
+     color: teal;
+ }
+ .upcoming-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .upcoming-inside img{
+    height: 122px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+ }
+ .upcoming-inside img:hover{
+    transform: scale(1.2);
+ }
+ .heading1{
+    color: teal;
+    line-height: 1.5;
+ }
+ .heading1 h4{
+    font-size: 15px;
+ }
+ .heading1 h6{
+    font-size: 12px;
+ }
+ .movie-favorites{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 850px;
+    padding: 0px 20px;
+ }
+ .movie-favorites h1{
+     font-size: 20px;
+     color: teal;
+ }
+ .movie-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .movie-inside img{
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+ }
+ .movie-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+ .heading1{
+    color: teal;
+    line-height: 1.5;
+ }
+ .heading1 h4{
+    font-size: 15px;
+ }
+ .heading1 h6{
+    font-size: 12px;
+ }
+ .hot-shows{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 500px;
+    padding: 0px 20px;
+ }
+ .hot-shows h1{
+     font-size: 20px;
+     color: teal;
+ }
+ .hot-container{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .hot-inside img{
+    height: 122px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+ }
+ .hot-inside img:hover{
+    transform: scale(1.2);
+ }
+ .heading1{
+    color: teal;
+    line-height: 1.5;
+ }
+ .heading1 h4{
+    font-size: 15px;
+ }
+ .heading1 h6{
+    font-size: 12px;
+ }
+ .returning-series{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 850px;
+    padding: 0px 20px;
+ }
+ .returning-series h1{
+     font-size: 20px;
+     color: teal;
+ }
+ .returning-container{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .returning-inside img{
+    height: 250px;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+ }
+ .returning-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+ .heading1{
+    color: teal;
+    line-height: 1.5;
+ }
+ .heading1 h4{
+    font-size: 15px;
+ }
+ .heading1 h6 {
+    font-size: 12px;
+ }
+ .Shop{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 850px;
+    padding: 0px 20px;
+ }
+ .Shop h1{
+    font-size: 20px;
+    color: teal;
+}
+.Shop-container{
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Shop-inside img{
+   height: 250px;
+   border-radius: 10px;
+   transition: all 500ms ease-in-out;
+}
+.Shop-inside img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.heading1{
+   color: teal;
+   line-height: 1.5;
+}
+.heading1 h4{
+   font-size: 15px;
+}
+.heading1 h6 {
+   font-size: 12px;
+}
+.Brands{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(6, 1, 1, 0.9),rgba(6, 1, 1, 0.9));
+    margin-top: 850px;
+    padding: 0px 20px;
+ }
+ .Brands h1{
+    font-size: 20px;
+    color: teal;
+}
+.Brands-container{
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Brands-inside img{
+   height: 250px;
+   border-radius: 10px;
+   transition: all 500ms ease-in-out;
+}
+.Brands -inside img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.heading1{
+   color: teal;
+   line-height: 1.5;
+}
+.heading1 h4{
+   font-size: 15px;
+}
+.heading1 h6 {
+   font-size: 12px;
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(Images\Warner_Bros._Pictures_(Stop_the_World_I_Want_to_Get_Off).jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2x) brightness(80%);
+
+    
+
+}
+.container{
+    width: 360px;
+    background: white;
+    box-shadow: 0 0 8px rgba(250,250,250,0.6);
+    opacity:0.6;    
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+
+}
+.form h1{
+    padding: 10px 0px;
+}
+ form .id{
+    position: relative;
+ }
+ .id i{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+ }
+.form input{
+    width: 100%;
+    height: 50px;
+    margin: 4px 0px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #1;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 20px;
+
+}
+
+form textarea{
+    padding: 5px 15px;
+    border: 1px solid #5c5c5c;
+    border-radius: 3px;
+    background: #181717;
+    font-size: 20px;
+    width: 100%;
+    margin: 4px 0;}
+
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #00fff0;
+    color: black;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+
+
+}
+
+ .footer{
+    position: absolute;
+    margin-top: 3860px;
+    height: 20vh;
+    color: white;
+    background:black;
+    width: 100%;
+}
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:rgb(18, 241, 241);
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid #00fff0;
+    color: #00fff0;
+    transition: all 0.3s ease; 
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #00fff0;
+    transition: all 0.3s ease; 
+}
+form input:focus + i{
+    color: #00fff0;
+    transition: all 0.3s ease;
+}
+
+ .footer{
+    position: absolute;
+    margin-top: 3860px;
+    height: 20vh;
+    color: white;
+    background:#141414;
+    width: 100%;
+}
+
+.logopart img{
+    height:7vh;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.logopart h1{
+    color:rgb(18, 241, 241);
+font-size: 25px;
+margin-top: 40px;
+margin-left: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.socials i{
+    font-size: 27px;
+    margin-top: 30px;
+    padding: 0px 4px;
+    color: rgb(18, 241, 241);
+}
+
+.scroll{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: teal;
+    border-radius: 50px;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+}
+.scroll i{
+    color: black;
+}
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+}
+.hamburger:focus{
+    outline: none;
+}
+
+@media(max-width:360px)
+{
+    .nav ul{
+        display: none;
+    }
+    .hamburger {
+        display: block; 
+    }
+
+
+}
+
